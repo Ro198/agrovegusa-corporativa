@@ -1,0 +1,128 @@
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Editar usuario</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <form #editarForm="ngForm">
+
+    <ion-list>
+      <ion-item>
+        <ion-avatar item-left>
+         <img src="img/icon/user.png"/>      
+        </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Nombre de usuario:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarBDUsuario.Username" name="Username" #Username="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/pass.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Contraseña:</ion-label>
+        <ion-input type="password" [(ngModel)]="editarBDUsuario.Pass" name="Pass" #Pass="ngModel"
+         required></ion-input>
+      </ion-item> 
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/usuarioN.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Nombre completo:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/ciudad.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Municipio:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarBDUsuario.municipio" name="municipio" #municipio="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/estado.png"/>      
+        </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Estado:</ion-label>
+        <ion-select [(ngModel)]="editarBDUsuario.estado" name="estado" #estado="ngModel" cancelText="Cancelar" okText="Agregar" required> 
+        <ion-option value="Aguascalientes">Aguascalientes</ion-option>
+        <ion-option value="Baja California">Baja California</ion-option>
+        <ion-option value="Baja California Sur">Baja California Sur</ion-option>
+        <ion-option value="Chihuahua">Chihuahua</ion-option>
+        <ion-option value="Chiapas">Chiapas</ion-option>
+        <ion-option value="Campeche">Campeche</ion-option>
+        <ion-option value="Ciudad de México">Ciudad de México</ion-option>
+        <ion-option value="Coahuila">Coahuila</ion-option>
+        <ion-option value="Colima">Colima</ion-option>
+        <ion-option value="Durango">Durango</ion-option>
+        <ion-option value="Guerrero">Guerrero</ion-option>
+        <ion-option value="Guanajuato">Guanajuato</ion-option>
+        <ion-option value="Hidalgo">Hidalgo</ion-option>
+        <ion-option value="Jalisco">Jalisco</ion-option>
+        <ion-option value="Michoacán">Michoacán</ion-option>
+        <ion-option value="Estado de México">Estado de México</ion-option>
+        <ion-option value="Morelos">Morelos</ion-option>
+        <ion-option value="Nayarit">Nayarit</ion-option>
+        <ion-option value="Nuevo León">Nuevo León</ion-option>
+        <ion-option value="Oaxaca">Oaxaca</ion-option>
+        <ion-option value="Puebla">Puebla</ion-option>
+        <ion-option value="Quintana Roo">Quintana Roo</ion-option>
+        <ion-option value="Queretaro">Queretaro</ion-option>
+        <ion-option value="Sinaloa">Sinaloa</ion-option>
+        <ion-option value="San Luis Potosi">San Luis Potosi</ion-option>
+        <ion-option value="Sonora">Sonora</ion-option>
+        <ion-option value="Tabasco">Tabasco</ion-option>
+        <ion-option value="Tlaxcala">Tlaxcala</ion-option>
+        <ion-option value="Tamaulipas">Tamaulipas</ion-option>
+        <ion-option value="Veracruz">Veracruz</ion-option>
+        <ion-option value="Yucatan">Yucatan</ion-option>
+        <ion-option value="Zacatecas">Zacatecas</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/telefono.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Telefono:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarBDUsuario.telefono" name="telefono" #telefono="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item> 
+        <ion-avatar item-left>
+         <img src="img/icon/email.png"/>      
+        </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Correo:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarBDUsuario.Correo" name="Correo" #Correo="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/promotorN.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Número de promotor:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarBDUsuario.numeroPromotor" name="numeroPromotor" #numeroPromotor="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/cuenta.png"/>      
+        </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Tipo de cuenta:</ion-label>
+        <ion-select [(ngModel)]="editarBDUsuario.tipoCuenta" name="tipoCuenta" #tipoCuenta="ngModel" cancelText="Cancelar" okText="Agregar" required> 
+        <ion-option value="1">Administrador</ion-option>
+        <ion-option value="2">Promotor</ion-option>
+        <ion-option value="3">Cliente</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <br>
+
+    <button ion-button round block color="agro2" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
+
+  </form>
+
+</ion-content>

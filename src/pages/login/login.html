@@ -1,0 +1,61 @@
+
+<ion-content>
+  <br>
+
+<div style="text-align: left;">
+  <img src="img/logo.png" style="width : 70% ; margin-top: 50px;"><br>
+</div>
+
+  <p style="text-align: center; color: #4A6D68;">Aplicación móvil para uso <br> interno de la empresa</p>
+
+  <form #loginForm="ngForm" id="form">
+   
+    <ion-item clearInput class="item-md">
+      <ion-icon class="icono" name="person" subtle large item-left></ion-icon>
+      <ion-input required spellcheck="false" type="text" [(ngModel)]="login.username" name="username"
+        #username="ngModel" spellcheck="false" required placeholder="Usuario"
+        oninvalid="setCustomValidity('Por favor ingresa tu nombre de usuario')"
+        onchange="try{setCustomValidity('')}catch(e){}" title="Por favor ingresa tu nombre de usuario" type="usuario"
+        maxlength="60"></ion-input>
+    </ion-item>  
+
+    <p [hidden]="username.valid  || submitted==false " color="danger" padding-left></p>
+
+ <br>
+    <ion-item clearInput class="item-md">
+      <ion-icon class="icono" name="key" subtle large item-left></ion-icon>
+      <ion-input required spellcheck="false" type="password" [(ngModel)]="login.password" name="password" placeholder="Contraseña" required
+        #password="ngModel" spellcheck="false" oninvalid="setCustomValidity('Por favor ingresa tu contraseña')"
+        onchange="try{setCustomValidity('')}catch(e){}"></ion-input>
+    </ion-item>
+
+    <p [hidden]="password.valid  || submitted==false " color="danger" padding-left></p>
+
+    <div padding></div>
+
+    <!--Boton Login-->
+    <div class="continuar">
+      <button ion-button round block shape="round" color="agro2" type="submit" (click)="loginUser(loginForm)">
+          Iniciar Sesión
+        <ion-icon name="log-in" subtle large item-left></ion-icon>
+      </button>
+    </div>
+
+  </form>
+  <br>
+
+
+
+  <div padding class="continuar" style="text-align: -webkit-center;">
+    <p style="text-align: center; color: #505A53; margin-top: -14px;">¿Quieres ser nuestro <strong>Cliente</strong>? <br> envianos un correo</p>
+    <button style="width: 40%;" ion-button round block shape="round" color="agro1" (click)="mensaje()">
+        Solicitar
+      <ion-icon name="log-in" subtle large item-left></ion-icon>
+    </button>
+
+  </div>
+
+  <p style="text-align: center; color: #4A6D68;">v 1.1.4</p>
+
+</ion-content>
+

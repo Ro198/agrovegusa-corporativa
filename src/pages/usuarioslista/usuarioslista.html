@@ -1,0 +1,72 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Usuarios</ion-title>
+<br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <!--
+        <ion-col>
+          <img style="width: 25%;" (click)="enlace_agregar_usuario()" src="img/icon/agotado.png"/>
+          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>
+        </ion-col>
+        -->
+        <ion-col>     
+          <img style="width: 12%;" (click)="enlace_agregar_usuario()" src="img/icon/agregarP.png"/>
+          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo usuario</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+ 
+  </ion-navbar>
+
+  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">
+  </ion-searchbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <ion-refresher (ionRefresh)="Refrescar($event)">
+    <ion-refresher-content 
+        refreshingSpinner="circles"
+        refreshingText="Actualizando lista...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list *ngFor="let item of usuarios; let i=index;">
+    <ion-card class="lista" (click)="detalles($event,item)">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/user.png"/>      
+        </ion-avatar>
+        <h2 style="color: #4A6D68; font-size: 15px;"><strong>{{item.nombreUsuario}}</strong></h2> 
+        <h3 style="color: #505A53;">Usuario: <strong>{{item.Username}}</strong></h3>
+        <h4 style="opacity: 50%;">Correo: <strong>{{item.Correo}}</strong></h4>
+      </ion-item>
+      <ion-grid style="text-align: center;">
+        <ion-row> 
+          <ion-col>
+            <ion-chip *ngIf="item.tipoCuenta === '1' " color="agro1">
+              <ion-label style="margin: 0 10px;">Administrador</ion-label>
+            </ion-chip>
+            <ion-chip *ngIf="item.tipoCuenta === '2'" color="agro2">
+              <ion-label style="margin: 0 10px;">Promotor</ion-label>
+            </ion-chip>
+            <ion-chip *ngIf="item.tipoCuenta === '3'" color="btnlogin">
+              <ion-label style="margin: 0 10px;">Cliente</ion-label>
+            </ion-chip>
+            <ion-chip *ngIf="item.tipoCuenta === '4'" color="orange">
+              <ion-label style="margin: 0 10px;">Administradores</ion-label>
+            </ion-chip>
+          </ion-col> 
+          <ion-col>     
+            <h3 style="color: #505A53;">Número de promotor <br> <strong style="color: #0C369C;">{{item.numeroPromotor}}</strong></h3>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </ion-list>
+
+</ion-content>

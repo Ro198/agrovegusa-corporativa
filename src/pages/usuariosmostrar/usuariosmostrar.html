@@ -1,0 +1,73 @@
+
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Detalles del usuario</ion-title>
+<br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 25%;" (click)="enlace_editar_producto()" src="img/icon/editar.png"/>
+          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Editar</p>
+        </ion-col>
+        <ion-col> 
+          <form #eliminarForm="ngForm">    
+            <img style="width: 25%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>
+            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>
+          </form>     
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <br>
+  <br>
+
+  <ion-card-content style="text-align: -webkit-center;"> 
+    <h3 style="color: #0C369C;"><strong>{{datosU.nombreUsuario}}</strong></h3>
+  </ion-card-content> 
+  
+  <ion-item no-lines style="text-align: center;">
+        <h3 style="color: #505A53;">Usuario: <strong>{{datosU.Username}}</strong></h3>
+        <h3 style="color: #505A53;">Número de promotor: <strong style="color: #88BD54;">{{datosU.numeroPromotor}}</strong></h3>
+        <h4 style="opacity: 50%;">Correo: <strong>{{datosU.Correo}}</strong></h4>
+  </ion-item>
+
+  <div style="text-align: -webkit-center;">
+  <ion-chip *ngIf="datosU.tipoCuenta === '1' " color="agro1">
+    <ion-label style="margin: 0 10px;">Administrador</ion-label>
+  </ion-chip>
+  <ion-chip *ngIf="datosU.tipoCuenta === '2'" color="agro2">
+    <ion-label style="margin: 0 10px;">Promotor</ion-label>
+  </ion-chip>
+  <ion-chip *ngIf="datosU.tipoCuenta === '3'" color="btnlogin">
+    <ion-label style="margin: 0 10px;">Cliente</ion-label>
+  </ion-chip>
+  <ion-chip *ngIf="datosU.tipoCuenta === '4'" color="orange">
+    <ion-label style="margin: 0 10px;">Administradores</ion-label>
+  </ion-chip>
+</div>
+
+<br>
+
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Municipio: <strong>{{datosU.municipio}}</strong></p>
+  </ion-card-content>
+
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosU.estado}}</strong></p>
+  </ion-card-content>
+   
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/telefono.png"/> Telefono: <strong>{{datosU.telefono}}</strong></p>
+  </ion-card-content>
+  
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/pass.png"/> Contraseña: <strong>{{datosU.Pass}}</strong></p>
+  </ion-card-content>
+
+</ion-content>

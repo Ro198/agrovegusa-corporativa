@@ -1,0 +1,49 @@
+
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Agregar imagen</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <form #guardarForm="ngForm">
+
+    <div class="Imagen" style="text-align:center;" *ngIf="captureDataUrl == null" (click)="upload()">
+     <img src="img/icon/camara.png">
+      <div >Agrega una foto o imagen</div>
+    </div>    
+
+    <div (click)="upload()" *ngIf="captureDataUrl != null">
+      <img  src="{{fotoPromocion?.foto}}" id="Imagen" [src]="captureDataUrl" >
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>
+
+  </form>
+
+
+</ion-content>

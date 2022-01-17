@@ -1,0 +1,150 @@
+
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Editar producto</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <form #editarForm="ngForm">
+
+    <ion-list>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/marca.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Marca:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarProducto.marca" name="marca" #marca="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/product.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Producto:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarProducto.producto" name="producto" #producto="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/codigo.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Codigo KPI:</ion-label>
+        <ion-input type="text" [(ngModel)]="editarProducto.codigoKPI" name="codigoKPI" #codigoKPI="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/existencias.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Existencias:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.existencias" name="existencias" #existencias="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/clipu.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio al publico $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pClientePublico" name="pClientePublico" #pClientePublico="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/clipu.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio al cliente mayorista $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pClienteMayorista" name="pClienteMayorista" #pClienteMayorista="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/admin.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio al administrador, condicion $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pAdminCondicion" name="pAdminCondicion" #pAdminCondicion="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/admin.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio al administrador, deluxe $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pAdminDeluxe" name="pAdminDeluxe" #pAdminDeluxe="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/distri.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio al vendedor, distribuidor $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pVendedorDistribuidor" name="pVendedorDistribuidor" #pVendedorDistribuidor="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/porc.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">DTO al vendedor, distribuidor %:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.pVendedorDTODistribuidor" name="pVendedorDTODistribuidor" #pVendedorDTODistribuidor="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/volumen.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio de venta, V1 $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.ventaV1Vendedor" name="ventaV1Vendedor" #ventaV1Vendedor="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/volumen.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio de venta, V2 $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.ventaV2Vendedor" name="ventaV2Vendedor" #ventaV2Vendedor="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/volumen.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio de venta, V3 $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.ventaV3Vendedor" name="ventaV3Vendedor" #ventaV3Vendedor="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/volumen.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Precio de venta, V4 $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.ventaV4Vendedor" name="ventaV4Vendedor" #ventaV4Vendedor="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/porc.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Porcentaje IEPS %:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.porceniepsCliente" name="porceniepsCliente" #porceniepsCliente="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/porc.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 16px; color: #4A6D68;">Porcentaje IVA %:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarProducto.porcenivaCliente" name="porcenivaCliente" #porcenivaCliente="ngModel" 
+         required></ion-input>
+      </ion-item>
+    </ion-list>
+    <br>
+
+    <button ion-button round block color="agro2" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
+
+  </form>
+
+</ion-content>

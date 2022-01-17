@@ -1,0 +1,148 @@
+
+<ion-content padding>
+
+  <ion-fab right top>
+    <button ion-fab ><ion-icon name="arrow-dropdown"></ion-icon></button>
+    <ion-fab-list side="bottom">
+        <img ion-fab style="border-radius: 50%;" (click)="usuarios()"  src="img/icon/users.png"/>
+    </ion-fab-list>
+    <ion-fab-list side="top">
+      <p style="color: #505A53; padding: 0px 0px;">Usuarios</p>
+    </ion-fab-list>
+  </ion-fab>
+
+  <br>
+  <br>
+  
+  <ion-grid style="text-align: center;"> 
+    <ion-row> 
+      <ion-col> 
+        <div style="text-align: center;">
+          <img src="img/logo.png" style="width: 60%;">
+            <p style="padding: 0 0px; font-size: 12px; color: #505A53; margin-top: 1%; margin-right: 0%;">Bienvenid@ <br> 
+            <strong style="font-size: 16px; color: #88BD54;">{{perfil.nombreUsuario}}</strong> <br> 
+            <strong style="font-size: 14px; color: #505A53;">Administrador</strong> </p>
+        </div> 
+      </ion-col>
+    </ion-row> 
+  </ion-grid> 
+
+  <div class="redes">
+    <ion-grid style="text-align: center; margin-top: 0%;">
+      <ion-row>
+        <ion-col>
+          <img src="img/facebookk.png"
+            onclick="window.open('https://www.facebook.com/agrovegusa','_system','location=yes')">
+        </ion-col>
+        <ion-col>
+          <img src="img/instagram.png"
+            onclick="window.open('https://www.instagram.com/agrovegusa/?hl=en','_system','location=yes')">
+        </ion-col>
+        <ion-col>
+          <img src="img/youtube.png"
+            onclick="window.open('https://www.youtube.com/channel/UCoMSuFK4yxFvm6I48F2fCjw','_system','location=yes')">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="productos()">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/bolsaP.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Productos W</strong></p>     
+          </ion-card>
+        </ion-col> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="productosofline()">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;"> 
+                <img src="img/icon/bolsaO.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Productos O</strong></p>    
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+  
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" onclick="window.open('https://agrovegusa.com/')">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/web.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Sitio web</strong></p>     
+          </ion-card>
+        </ion-col> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="promociones()">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/promociones.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Promociones</strong></p>     
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+  
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" onclick="window.open('http://agrovegusa.sytes.net/saimovil/DefaultP.aspx')">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/proveedor.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Proveedor</strong></p>      
+          </ion-card>
+        </ion-col> 
+        <ion-col>     
+          <ion-card class="tarjeta" onclick="window.open('http://agrovegusa.sytes.net/saimovil/DefaultE.aspx')">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/distribuidor.png"/> 
+                </div>     
+               </ion-avatar>
+            </ion-item>
+              <p style="font-size: 16px; color: #88BD54;"><strong>Distribuidor</strong></p>     
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+  <div style="text-align: center;" (click)="logout()">
+    <p style="font-size: 16px; color: #FF0000;">Cerrar sesión <img style="width: 4%;" (click)="logout()" src="img/icon/salir.png"/></p>
+  </div>
+
+</ion-content>

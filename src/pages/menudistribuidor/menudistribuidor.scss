@@ -1,0 +1,53 @@
+page-menudistribuidor {
+    .logo{
+        img {
+          filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+        }
+      }
+    
+      b {
+        font-weight: 500;
+        }
+      
+        p {
+        padding: 0 20px;
+        font-size: 12px;
+        line-height: 1.0;
+        color: #60646B;
+      
+        b {
+          color: #000000;
+        }
+        }
+      
+        .element.style {
+        margin-top: -5;
+        margin-top: 15px;
+        top: 5px;
+        }
+    
+        .redes{
+    
+          img {
+            max-width: 35%;
+            border: 0;
+        }
+        
+        }
+    
+        .tarjeta{
+          border-radius: 5px;
+          box-shadow: 8px -8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+        }
+    
+        .item-md ion-avatar ion-img, .item-md ion-avatar img{
+          width: 40px; 
+          height: 40px;
+          border-radius: 0px;
+          text-align: center;
+        }
+        
+        .grid{
+          padding: 2px;
+        }
+}

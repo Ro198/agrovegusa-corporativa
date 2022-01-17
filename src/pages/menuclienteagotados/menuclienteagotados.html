@@ -1,0 +1,38 @@
+
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Productos Agotados</ion-title>
+  </ion-navbar>
+
+  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar producto">
+  </ion-searchbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-refresher (ionRefresh)="Refrescar($event)">
+    <ion-refresher-content 
+    refreshingSpinner="circles"
+    refreshingText="Actualizando lista...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+
+  <ion-list *ngFor="let item of productos; let i=index;">
+    <ion-card class="lista" (click)="detalles($event,item)">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/product.png"/>      
+        </ion-avatar>
+        <h2 style="color: #4A6D68; font-size: 13px;"><strong>{{item.producto}}</strong></h2> 
+        <h3 style="color: #505A53;">Marca: <strong>{{item.marca}}</strong></h3>
+        <h3 style="color: #505A53;">Existencias: <strong style="color: #C10000;">{{item.existencias}}</strong></h3>
+        <h4 style="opacity: 50%;">Codigo KPI: <strong>{{item.codigoKPI}}</strong></h4>
+      </ion-item>
+    </ion-card>
+  </ion-list>
+
+</ion-content>
+ 

@@ -1,0 +1,30 @@
+page-promocionesadmin {
+    .toolbar-md-sincolor .bar-button-clear-md, .toolbar-md-sincolor .bar-button-default-md, .toolbar-md-sincolor .bar-button-outline-md, .toolbar-md-sincolor .toolbar-title-md {
+        color: #88BD54;
+        padding: 0%;
+    }
+
+    .item-md ion-avatar ion-img, .item-md ion-avatar img{
+        width: 360px;
+        height: 265px;
+        border-radius: 20px;
+    }
+
+    ion-fab-list {
+        min-height: 1px;
+      }
+  
+      .fab-in-list {
+      margin: 4px 0;
+      width: 80px;
+      height: 50px;
+      }
+  
+      .fab ion-icon {
+      font-size: 3.5rem;
+      }
+    
+      ion-fab[top] {
+        top: 55px;
+      }
+}

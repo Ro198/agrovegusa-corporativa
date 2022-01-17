@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953521865926",
+    "project_id": "app-movil-notificaciones",
+    "storage_bucket": "app-movil-notificaciones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953521865926:android:1566a08fab75bd4be003c7",
+        "android_client_info": {
+          "package_name": "com.agrovegusa.zulasoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953521865926-oi948u63lsjgr28nec4ba2le7ajaldqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyQ3Vh_unNl0yAW9upVlaL8TxSUTttv90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953521865926-oi948u63lsjgr28nec4ba2le7ajaldqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

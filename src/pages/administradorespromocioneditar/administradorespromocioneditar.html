@@ -1,0 +1,37 @@
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Editar Imagen</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h5 style="text-align: center; color: #4A6D68;">Imagen actual</h5>
+  <div style="text-align:center;" >
+    <img src="{{imagenP?.foto}}" id="Foto">
+  </div>
+
+  <br>
+
+  <form #editarForm="ngForm">
+
+    <h5 style="text-align: center; color: #4A6D68;">Imagen Nueva</h5>
+
+    <div class="Imagen" style="text-align:center;" *ngIf="captureDataUrl == null" (click)="upload()">
+      <img src="img/icon/camara.png">
+       <div >Agrega una nueva foto o imagen</div>
+     </div>    
+ 
+     <div (click)="upload()" *ngIf="captureDataUrl != null">
+       <img  src="{{imagenProFoto?.foto}}" id="Imagen" [src]="captureDataUrl" >
+     </div>
+
+<br>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
+
+</form>
+
+</ion-content>
