@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-
+import { 
+  PedidospromotorPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-menudistribuidormostrar',
@@ -30,6 +32,10 @@ export class MenudistribuidormostrarPage {
     console.log(this.perfil);
 
   } 
+
+  pedido(){
+    this.navCtrl.push(PedidospromotorPage);
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MenudistribuidormostrarPage');

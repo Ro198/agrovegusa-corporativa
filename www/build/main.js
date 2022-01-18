@@ -238,7 +238,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(43);
@@ -281,33 +281,34 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["d" /* LoginPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["e" /* MenuadministradorPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["o" /* ProductosPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["r" /* ProductosdetallesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["q" /* ProductosagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["s" /* ProductoseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["p" /* ProductosPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["s" /* ProductosdetallesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["r" /* ProductosagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["t" /* ProductoseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["a" /* AcuerdoPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["g" /* MenuclientePage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["k" /* MenudistribuidorPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["p" /* ProductosagotadosPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["B" /* UsuarioslistaPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["C" /* UsuariosmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["z" /* UsuariosagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["A" /* UsuarioseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["q" /* ProductosagotadosPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["C" /* UsuarioslistaPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["D" /* UsuariosmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["A" /* UsuariosagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["B" /* UsuarioseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["n" /* MenudistribuidorproductoPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["l" /* MenudistribuidoragotadosPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["m" /* MenudistribuidormostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["h" /* MenuclienteagotadosPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["i" /* MenuclientemostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["j" /* MenuclienteproductoPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["v" /* PromocionesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["w" /* PromocionesadminPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["t" /* ProductosoflinePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["u" /* ProductosoflinemostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["y" /* PromocionesagregaradminPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["x" /* PromocionesadmineditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["w" /* PromocionesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["x" /* PromocionesadminPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["u" /* ProductosoflinePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["v" /* ProductosoflinemostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["z" /* PromocionesagregaradminPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["y" /* PromocionesadmineditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["f" /* MenuadministradoresPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["b" /* AdministradorespromocionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["c" /* AdministradorespromocioneditarPage */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["c" /* AdministradorespromocioneditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["o" /* PedidospromotorPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -321,33 +322,34 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["d" /* LoginPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["e" /* MenuadministradorPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["o" /* ProductosPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["r" /* ProductosdetallesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["q" /* ProductosagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["s" /* ProductoseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["p" /* ProductosPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["s" /* ProductosdetallesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["r" /* ProductosagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["t" /* ProductoseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["a" /* AcuerdoPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["g" /* MenuclientePage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["k" /* MenudistribuidorPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["p" /* ProductosagotadosPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["B" /* UsuarioslistaPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["C" /* UsuariosmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["z" /* UsuariosagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["A" /* UsuarioseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["q" /* ProductosagotadosPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["C" /* UsuarioslistaPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["D" /* UsuariosmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["A" /* UsuariosagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["B" /* UsuarioseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["n" /* MenudistribuidorproductoPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["l" /* MenudistribuidoragotadosPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["m" /* MenudistribuidormostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["h" /* MenuclienteagotadosPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["i" /* MenuclientemostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["j" /* MenuclienteproductoPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["v" /* PromocionesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["w" /* PromocionesadminPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["t" /* ProductosoflinePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["u" /* ProductosoflinemostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["y" /* PromocionesagregaradminPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["x" /* PromocionesadmineditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["w" /* PromocionesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["x" /* PromocionesadminPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["u" /* ProductosoflinePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["v" /* ProductosoflinemostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["z" /* PromocionesagregaradminPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["y" /* PromocionesadmineditarPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["f" /* MenuadministradoresPage */],
                 __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["b" /* AdministradorespromocionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["c" /* AdministradorespromocioneditarPage */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["c" /* AdministradorespromocioneditarPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_index_paginas__["o" /* PedidospromotorPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -372,7 +374,7 @@ var AppModule = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_push__ = __webpack_require__(202);
@@ -499,7 +501,7 @@ var MyApp = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_LoginServices__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_email_composer__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_paginas__ = __webpack_require__(8);
@@ -645,7 +647,7 @@ var LoginPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuadministradorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -669,13 +671,13 @@ var MenuadministradorPage = (function () {
         console.log(this.perfil);
     }
     MenuadministradorPage.prototype.productos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["o" /* ProductosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["p" /* ProductosPage */]);
     };
     MenuadministradorPage.prototype.promociones = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* PromocionesadminPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["x" /* PromocionesadminPage */]);
     };
     MenuadministradorPage.prototype.usuarios = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* UsuarioslistaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* UsuarioslistaPage */]);
     };
     MenuadministradorPage.prototype.productosofline = function () {
         var _this = this;
@@ -691,7 +693,7 @@ var MenuadministradorPage = (function () {
                 {
                     text: "YA LO HICE",
                     handler: function () {
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ProductosoflinePage */]);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ProductosoflinePage */]);
                     }
                 }
             ]
@@ -744,7 +746,7 @@ var MenuadministradorPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -808,13 +810,13 @@ var ProductosPage = (function () {
     };
     ProductosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosProducto', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ProductosdetallesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["s" /* ProductosdetallesPage */]);
     };
     ProductosPage.prototype.enlace_agregar_producto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ProductosagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ProductosagregarPage */]);
     };
     ProductosPage.prototype.enlace_producto_agotado = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["p" /* ProductosagotadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ProductosagotadosPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     ProductosPage.prototype.Refrescar = function (refresher) {
@@ -872,7 +874,7 @@ var ProductosPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosdetallesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -904,7 +906,7 @@ var ProductosdetallesPage = (function () {
         console.log(this.perfil);
     }
     ProductosdetallesPage.prototype.enlace_editar_producto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["s" /* ProductoseditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ProductoseditarPage */]);
     };
     //ELIMINAR PRODUCTO
     ProductosdetallesPage.prototype.eliminar = function (form) {
@@ -928,7 +930,7 @@ var ProductosdetallesPage = (function () {
                             {
                                 text: 'DE ACUERDO',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* ProductosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["p" /* ProductosPage */]);
                                 }
                             }
                         ]
@@ -981,7 +983,7 @@ var ProductosdetallesPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosagregarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1105,7 +1107,7 @@ var ProductosagregarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductoseditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1250,7 +1252,7 @@ var ProductoseditarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AcuerdoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1353,7 +1355,7 @@ var AcuerdoPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenudistribuidorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1378,7 +1380,7 @@ var MenudistribuidorPage = (function () {
         console.log(this.perfil);
     }
     MenudistribuidorPage.prototype.promociones = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* PromocionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* PromocionesPage */]);
     };
     MenudistribuidorPage.prototype.productos = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["n" /* MenudistribuidorproductoPage */]);
@@ -1397,7 +1399,7 @@ var MenudistribuidorPage = (function () {
                 {
                     text: "YA LO HICE",
                     handler: function () {
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ProductosoflinePage */]);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ProductosoflinePage */]);
                     }
                 }
             ]
@@ -1451,7 +1453,7 @@ var MenudistribuidorPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuclientePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1475,7 +1477,7 @@ var MenuclientePage = (function () {
         console.log(this.perfil);
     }
     MenuclientePage.prototype.promociones = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* PromocionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* PromocionesPage */]);
     };
     MenuclientePage.prototype.productos = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["j" /* MenuclienteproductoPage */]);
@@ -1494,7 +1496,7 @@ var MenuclientePage = (function () {
                 {
                     text: "YA LO HICE",
                     handler: function () {
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ProductosoflinePage */]);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ProductosoflinePage */]);
                     }
                 }
             ]
@@ -1547,7 +1549,7 @@ var MenuclientePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosagotadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1610,7 +1612,7 @@ var ProductosagotadosPage = (function () {
     };
     ProductosagotadosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosProducto', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ProductosdetallesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["s" /* ProductosdetallesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     ProductosagotadosPage.prototype.Refrescar = function (refresher) {
@@ -1659,7 +1661,7 @@ var ProductosagotadosPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioslistaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1733,10 +1735,10 @@ var UsuarioslistaPage = (function () {
     };
     UsuarioslistaPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('infoUsuario', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* UsuariosmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* UsuariosmostrarPage */]);
     };
     UsuarioslistaPage.prototype.enlace_agregar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* UsuariosagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["A" /* UsuariosagregarPage */]);
     };
     UsuarioslistaPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad UsuarioslistaPage');
@@ -1763,7 +1765,7 @@ var UsuarioslistaPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuariosmostrarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1796,7 +1798,7 @@ var UsuariosmostrarPage = (function () {
         console.log(this.perfil);
     }
     UsuariosmostrarPage.prototype.enlace_editar_producto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["A" /* UsuarioseditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* UsuarioseditarPage */]);
     };
     //ELIMINAR USUARIO
     UsuariosmostrarPage.prototype.eliminar = function (form) {
@@ -1878,7 +1880,7 @@ var UsuariosmostrarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuariosagregarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1995,7 +1997,7 @@ var UsuariosagregarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioseditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2126,7 +2128,7 @@ var UsuarioseditarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenudistribuidorproductoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2228,7 +2230,7 @@ var MenudistribuidorproductoPage = (function () {
     };
     MenudistribuidorproductoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menudistribuidorproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n    <!--<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n      </ion-row>\n    </ion-grid> \n  -->\n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong>{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/,
+            selector: 'page-menudistribuidorproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n    <!--<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n      </ion-row>\n    </ion-grid> \n  -->\n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #0C369C; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo"> \n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2251,7 +2253,7 @@ var MenudistribuidorproductoPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenudistribuidoragotadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2363,7 +2365,8 @@ var MenudistribuidoragotadosPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenudistribuidormostrarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2373,6 +2376,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 var MenudistribuidormostrarPage = (function () {
@@ -2386,12 +2390,15 @@ var MenudistribuidormostrarPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    MenudistribuidormostrarPage.prototype.pedido = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["o" /* PedidospromotorPage */]);
+    };
     MenudistribuidormostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad MenudistribuidormostrarPage');
     };
     MenudistribuidormostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menudistribuidormostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidormostrar\menudistribuidormostrar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Detalles del producto</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n\n  <br>\n  <br> \n\n  <ion-card-content style="text-align: -webkit-center;"> \n    <h3 style="color: #0C369C;"><strong>{{datosP.producto}}</strong></h3>\n  </ion-card-content> \n\n  <ion-item no-lines style="text-align: center;">\n        <h3 style="color: #505A53;">Marca: <strong>{{datosP.marca}}</strong></h3>\n        <h3 style="color: #505A53;">Existencias: <strong style="color: #88BD54;">{{datosP.existencias}}</strong></h3>\n        <h4 style="opacity: 50%;">Codigo KPI: <strong>{{datosP.codigoKPI}}</strong></h4>\n  </ion-item>\n\n\n    <ion-grid style="text-align: -webkit-center;">\n      <ion-row> \n        <ion-col> \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Publico</p>\n                <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pClientePublico}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n        <ion-col> \n          <ion-item no-lines>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Mayorista</p>\n              <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pClienteMayorista}}</strong></p>\n            </div> \n          </ion-item>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-grid style="text-align: -webkit-center; margin-top: -30px;">\n      <ion-row> \n        <ion-col> \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Distribuidor</p>\n                <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pVendedorDistribuidor}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n\n\n  <div class="c2">\n    <ion-grid style="text-align: -webkit-center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 1</p>\n                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV1Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 2</p>\n                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV2Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n    <ion-grid style="text-align: -webkit-center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 3</p>\n                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV3Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 4</p>\n                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV4Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c2">\n    <ion-grid style="text-align: -webkit-center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta2">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">IEPS</p>\n                <p style="font-size: 15px; color: #0C369C;"><strong>{{datosP.porceniepsCliente}} %</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta2">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">IVA</p>\n                <p style="font-size: 15px; color: #0C369C;"><strong>{{datosP.porcenivaCliente}} %</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidormostrar\menudistribuidormostrar.html"*/,
+            selector: 'page-menudistribuidormostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidormostrar\menudistribuidormostrar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Detalles del producto</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n  \n  <ion-card-content style="text-align: -webkit-center;"> \n    <h3 style="color: #0C369C;"><strong style="font-weight: normal;">{{datosP.producto}}</strong></h3>\n  </ion-card-content> \n\n  <ion-item no-lines >\n    <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="ribbon"></ion-icon> Marca del producto: <strong>{{datosP.marca}}</strong></h3>\n    <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="list-box"></ion-icon> Existencias: <strong style="color: coral;">{{datosP.existencias}}</strong> <strong>pz/pzs</strong> en inventario</h3>\n    <h4 style="color: #505A53; font-size: 15px;"><ion-icon name="barcode"></ion-icon> Codigo KPI: <strong style="color: #3bb5a5;">{{datosP.codigoKPI}}</strong></h4>\n</ion-item>\n\n<div style="text-align: -webkit-center;">\n  <button ion-button round block color="agro1" type="submit" (click)="pedido()">\n    Realizar pedido <ion-icon name="cloud-upload"></ion-icon>\n  </button>\n</div> \n\n<br>\n\n    <ion-grid style="text-align: -webkit-center;">\n      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"><ion-icon name="cube"></ion-icon> Precios</h3>\n      <ion-row> \n        <ion-col> \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Publico</p>\n                <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClientePublico}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n        <ion-col> \n          <ion-item no-lines>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Mayorista</p>\n              <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClienteMayorista}}</strong></p>\n            </div> \n          </ion-item>\n      </ion-col>\n      <ion-col> \n        <ion-item no-lines>\n          <div style="text-align: -webkit-center;">\n            <p style="font-size: 10px; color: #505A53;">Distribuidor</p>\n            <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pVendedorDistribuidor}}</strong></p>\n          </div> \n        </ion-item>\n    </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <br>\n    <!--\n    <ion-grid style="text-align: -webkit-center; margin-top: -30px;">\n      <ion-row> \n        <ion-col> \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Distribuidor</p>\n                <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pVendedorDistribuidor}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n-->\n\n\n  <div class="c2">\n    <ion-grid style="text-align: -webkit-center;">\n      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="cube"></ion-icon> Volumenes</h3>\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 1</p>\n                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV1Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 2</p>\n                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV2Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n    <ion-grid style="text-align: -webkit-center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 3</p>\n                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV3Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Volumen 4</p>\n                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV4Vendedor}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <br>\n \n    <ion-grid style="text-align: -webkit-center;">\n      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"><ion-icon name="cube"></ion-icon> Porcentajes</h3>\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta2">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">IEPS</p>\n                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porceniepsCliente}} %</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta2">\n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">IVA</p>\n                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porcenivaCliente}} %</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidormostrar\menudistribuidormostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -2409,7 +2416,7 @@ var MenudistribuidormostrarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuclienteproductoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2534,7 +2541,7 @@ var MenuclienteproductoPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuclienteagotadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2646,7 +2653,7 @@ var MenuclienteagotadosPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuclientemostrarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2701,7 +2708,7 @@ var MenuclientemostrarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PromocionesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2788,7 +2795,7 @@ var PromocionesPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PromocionesadminPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2854,11 +2861,11 @@ var PromocionesadminPage = (function () {
         });
     };
     PromocionesadminPage.prototype.enlace_agregar_promocion = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* PromocionesagregaradminPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* PromocionesagregaradminPage */]);
     };
     PromocionesadminPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('imagenPromocion', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["x" /* PromocionesadmineditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* PromocionesadmineditarPage */]);
     };
     PromocionesadminPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad PromocionesadminPage');
@@ -2885,7 +2892,7 @@ var PromocionesadminPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosoflinePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2913,7 +2920,7 @@ var ProductosoflinePage = (function () {
     ProductosoflinePage.prototype.detalles = function (event, item) {
         if (this.perfil.tipoCuenta == 1) {
             window.localStorage.setItem('datosProducto', JSON.stringify(item));
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ProductosoflinemostrarPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ProductosoflinemostrarPage */]);
         }
         else if (this.perfil.tipoCuenta == 2) {
             window.localStorage.setItem('datosProducto', JSON.stringify(item));
@@ -2966,7 +2973,7 @@ var ProductosoflinePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductosoflinemostrarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3012,7 +3019,7 @@ var ProductosoflinemostrarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PromocionesagregaradminPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_PromocionesFotoServices__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_paginas__ = __webpack_require__(8);
@@ -3068,7 +3075,7 @@ var PromocionesagregaradminPage = (function () {
                             {
                                 text: 'DE ACUERDO',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["w" /* PromocionesadminPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["x" /* PromocionesadminPage */]);
                                 }
                             }
                         ]
@@ -3189,7 +3196,7 @@ var PromocionesagregaradminPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PromocionesadmineditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__servicios_PromocionesFotoServices__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3428,7 +3435,7 @@ var PromocionesadmineditarPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuadministradoresPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3472,7 +3479,7 @@ var MenuadministradoresPage = (function () {
                 {
                     text: "YA LO HICE",
                     handler: function () {
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ProductosoflinePage */]);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ProductosoflinePage */]);
                     }
                 }
             ]
@@ -3526,7 +3533,7 @@ var MenuadministradoresPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdministradorespromocionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ProductosServices__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3619,7 +3626,7 @@ var AdministradorespromocionPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdministradorespromocioneditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__servicios_PromocionesFotoServices__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3802,6 +3809,46 @@ var AdministradorespromocioneditarPage = (function () {
 
 /***/ }),
 
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PedidospromotorPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var PedidospromotorPage = (function () {
+    function PedidospromotorPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PedidospromotorPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PedidospromotorPage');
+    };
+    PedidospromotorPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-pedidospromotor',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/`<!--\n  Generated template for the PedidospromotorPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>pedidospromotor</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], PedidospromotorPage);
+    return PedidospromotorPage;
+}());
+
+//# sourceMappingURL=pedidospromotor.js.map
+
+/***/ }),
+
 /***/ 44:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3972,13 +4019,13 @@ var PromocionesFotoService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menuadministrador_menuadministrador__ = __webpack_require__(279);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__menuadministrador_menuadministrador__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__productos_productos__ = __webpack_require__(280);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_2__productos_productos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__productos_productos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__productosdetalles_productosdetalles__ = __webpack_require__(281);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_3__productosdetalles_productosdetalles__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_3__productosdetalles_productosdetalles__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__productosagregar_productosagregar__ = __webpack_require__(282);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_4__productosagregar_productosagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_4__productosagregar_productosagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__productoseditar_productoseditar__ = __webpack_require__(283);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_5__productoseditar_productoseditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_5__productoseditar_productoseditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__acuerdo_acuerdo__ = __webpack_require__(284);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__acuerdo_acuerdo__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__menudistribuidor_menudistribuidor__ = __webpack_require__(285);
@@ -3986,15 +4033,15 @@ var PromocionesFotoService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__menucliente_menucliente__ = __webpack_require__(286);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_8__menucliente_menucliente__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__productosagotados_productosagotados__ = __webpack_require__(287);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_9__productosagotados_productosagotados__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_9__productosagotados_productosagotados__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__usuarioslista_usuarioslista__ = __webpack_require__(288);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_10__usuarioslista_usuarioslista__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_10__usuarioslista_usuarioslista__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__usuariosmostrar_usuariosmostrar__ = __webpack_require__(289);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_11__usuariosmostrar_usuariosmostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_11__usuariosmostrar_usuariosmostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__usuariosagregar_usuariosagregar__ = __webpack_require__(290);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_12__usuariosagregar_usuariosagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_12__usuariosagregar_usuariosagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__usuarioseditar_usuarioseditar__ = __webpack_require__(291);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_13__usuarioseditar_usuarioseditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_13__usuarioseditar_usuarioseditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__menudistribuidorproducto_menudistribuidorproducto__ = __webpack_require__(292);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_14__menudistribuidorproducto_menudistribuidorproducto__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__menudistribuidoragotados_menudistribuidoragotados__ = __webpack_require__(293);
@@ -4008,23 +4055,26 @@ var PromocionesFotoService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__menuclientemostrar_menuclientemostrar__ = __webpack_require__(297);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_19__menuclientemostrar_menuclientemostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__promociones_promociones__ = __webpack_require__(298);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_20__promociones_promociones__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_20__promociones_promociones__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__promocionesadmin_promocionesadmin__ = __webpack_require__(299);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_21__promocionesadmin_promocionesadmin__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_21__promocionesadmin_promocionesadmin__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__productosofline_productosofline__ = __webpack_require__(300);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_22__productosofline_productosofline__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_22__productosofline_productosofline__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__productosoflinemostrar_productosoflinemostrar__ = __webpack_require__(301);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_23__productosoflinemostrar_productosoflinemostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_23__productosoflinemostrar_productosoflinemostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__promocionesagregaradmin_promocionesagregaradmin__ = __webpack_require__(302);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_24__promocionesagregaradmin_promocionesagregaradmin__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_24__promocionesagregaradmin_promocionesagregaradmin__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__promocionesadmineditar_promocionesadmineditar__ = __webpack_require__(303);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_25__promocionesadmineditar_promocionesadmineditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_25__promocionesadmineditar_promocionesadmineditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__menuadministradores_menuadministradores__ = __webpack_require__(304);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_26__menuadministradores_menuadministradores__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__administradorespromocion_administradorespromocion__ = __webpack_require__(305);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_27__administradorespromocion_administradorespromocion__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__administradorespromocioneditar_administradorespromocioneditar__ = __webpack_require__(306);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_28__administradorespromocioneditar_administradorespromocioneditar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pedidospromotor_pedidospromotor__ = __webpack_require__(307);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_29__pedidospromotor_pedidospromotor__["a"]; });
+
 
 
 

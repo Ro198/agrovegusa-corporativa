@@ -43,7 +43,8 @@ import {LoginPage,
   PromocionesadmineditarPage,
   MenuadministradoresPage,
   AdministradorespromocionPage,
-  AdministradorespromocioneditarPage
+  AdministradorespromocioneditarPage,
+  PedidospromotorPage
 } from "../pages/index.paginas";
 
 @NgModule({
@@ -77,7 +78,8 @@ import {LoginPage,
     PromocionesadmineditarPage,
     MenuadministradoresPage,
     AdministradorespromocionPage,
-    AdministradorespromocioneditarPage
+    AdministradorespromocioneditarPage,
+    PedidospromotorPage
   ],
   imports: [
     BrowserModule,
@@ -115,7 +117,8 @@ import {LoginPage,
     PromocionesadmineditarPage,
     MenuadministradoresPage,
     AdministradorespromocionPage,
-    AdministradorespromocioneditarPage
+    AdministradorespromocioneditarPage,
+    PedidospromotorPage
   ],
   providers: [
     StatusBar,

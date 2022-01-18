@@ -28,6 +28,7 @@ export { PromocionesadmineditarPage } from "./promocionesadmineditar/promociones
 export { MenuadministradoresPage } from "./menuadministradores/menuadministradores";
 export { AdministradorespromocionPage } from "./administradorespromocion/administradorespromocion";
 export { AdministradorespromocioneditarPage } from "./administradorespromocioneditar/administradorespromocioneditar";
+export { PedidospromotorPage } from "./pedidospromotor/pedidospromotor";
 
 
 

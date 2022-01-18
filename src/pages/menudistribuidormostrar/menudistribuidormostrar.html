@@ -8,28 +8,33 @@
 
 
 <ion-content padding> 
-
-  <br>
-  <br> 
-
+  
   <ion-card-content style="text-align: -webkit-center;"> 
-    <h3 style="color: #0C369C;"><strong>{{datosP.producto}}</strong></h3>
+    <h3 style="color: #0C369C;"><strong style="font-weight: normal;">{{datosP.producto}}</strong></h3>
   </ion-card-content> 
 
-  <ion-item no-lines style="text-align: center;">
-        <h3 style="color: #505A53;">Marca: <strong>{{datosP.marca}}</strong></h3>
-        <h3 style="color: #505A53;">Existencias: <strong style="color: #88BD54;">{{datosP.existencias}}</strong></h3>
-        <h4 style="opacity: 50%;">Codigo KPI: <strong>{{datosP.codigoKPI}}</strong></h4>
-  </ion-item>
+  <ion-item no-lines >
+    <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="ribbon"></ion-icon> Marca del producto: <strong>{{datosP.marca}}</strong></h3>
+    <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="list-box"></ion-icon> Existencias: <strong style="color: coral;">{{datosP.existencias}}</strong> <strong>pz/pzs</strong> en inventario</h3>
+    <h4 style="color: #505A53; font-size: 15px;"><ion-icon name="barcode"></ion-icon> Codigo KPI: <strong style="color: #3bb5a5;">{{datosP.codigoKPI}}</strong></h4>
+</ion-item>
 
+<div style="text-align: -webkit-center;">
+  <button ion-button round block color="agro1" type="submit" (click)="pedido()">
+    Realizar pedido <ion-icon name="cloud-upload"></ion-icon>
+  </button>
+</div> 
+
+<br>
 
     <ion-grid style="text-align: -webkit-center;">
+      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"><ion-icon name="cube"></ion-icon> Precios</h3>
       <ion-row> 
         <ion-col> 
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Publico</p>
-                <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pClientePublico}}</strong></p>
+                <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClientePublico}}</strong></p>
               </div> 
             </ion-item>
         </ion-col>
@@ -37,13 +42,23 @@
           <ion-item no-lines>
             <div style="text-align: -webkit-center;">
               <p style="font-size: 10px; color: #505A53;">Mayorista</p>
-              <p style="font-size: 15px; color: #0C369C;">$ <strong>{{datosP.pClienteMayorista}}</strong></p>
+              <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClienteMayorista}}</strong></p>
             </div> 
           </ion-item>
       </ion-col>
+      <ion-col> 
+        <ion-item no-lines>
+          <div style="text-align: -webkit-center;">
+            <p style="font-size: 10px; color: #505A53;">Distribuidor</p>
+            <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pVendedorDistribuidor}}</strong></p>
+          </div> 
+        </ion-item>
+    </ion-col>
       </ion-row>
     </ion-grid> 
 
+    <br>
+    <!--
     <ion-grid style="text-align: -webkit-center; margin-top: -30px;">
       <ion-row> 
         <ion-col> 
@@ -56,18 +71,19 @@
         </ion-col>
       </ion-row>
     </ion-grid> 
-
+-->
 
 
   <div class="c2">
     <ion-grid style="text-align: -webkit-center;">
+      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="cube"></ion-icon> Volumenes</h3>
       <ion-row> 
         <ion-col> 
           <ion-card class="tarjeta">
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 1</p>
-                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV1Vendedor}}</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV1Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -77,7 +93,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 2</p>
-                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV2Vendedor}}</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV2Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -91,7 +107,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 3</p>
-                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV3Vendedor}}</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV3Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -101,7 +117,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 4</p>
-                <p style="font-size: 14px; color: #0C369C;">$ <strong>{{datosP.ventaV4Vendedor}}</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV4Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -110,15 +126,17 @@
     </ion-grid> 
   </div>
 
-  <div class="c2">
+  <br>
+ 
     <ion-grid style="text-align: -webkit-center;">
+      <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"><ion-icon name="cube"></ion-icon> Porcentajes</h3>
       <ion-row> 
         <ion-col> 
           <ion-card class="tarjeta2">
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">IEPS</p>
-                <p style="font-size: 15px; color: #0C369C;"><strong>{{datosP.porceniepsCliente}} %</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porceniepsCliente}} %</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -128,14 +146,14 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">IVA</p>
-                <p style="font-size: 15px; color: #0C369C;"><strong>{{datosP.porcenivaCliente}} %</strong></p>
+                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porcenivaCliente}} %</strong></p>
               </div> 
             </ion-item>
           </ion-card>
         </ion-col>
       </ion-row>
     </ion-grid> 
-  </div>
+
 
 
 </ion-content>
