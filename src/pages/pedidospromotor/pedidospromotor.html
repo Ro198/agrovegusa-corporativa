@@ -1,18 +1,105 @@
-<!--
-  Generated template for the PedidospromotorPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>pedidospromotor</ion-title>
+<ion-header translucent="true" no-border>
+  <ion-navbar color="sincolor" style="text-align: center;">
+    <ion-title color="agro2" style="text-align: -webkit-center;">Detalles del pedido</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding> 
+
+
+  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="person"></ion-icon> Datos del usuario</h3>
+
+  <br>
+
+<p>Username: <strong>{{perfil.Username}}</strong></p>
+<p>Nombre de ususario: <strong>{{perfil.nombreUsuario}}</strong></p>
+<p>Numero de promotor: <strong>{{perfil.numeroPromotor}}</strong></p>
+<p>Correo: <strong>{{perfil.Correo}}</strong></p>
+
+  <br>
+
+  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="pricetag"></ion-icon> Datos del producto</h3>
+
+  <p>Nombre del producto: <strong>{{datosP.producto}}</strong></p>
+  <p>Codigo KPI: <strong>{{datosP.codigoKPI}}</strong></p>
+  <p>Existencias: <strong>{{datosP.existencias}}</strong></p>
+  <p>Marca: <strong>{{datosP.marca}}</strong></p>
+  <p>Precio publico: <strong>$ {{datosP.pClientePublico}}</strong></p>
+  <p>Precio Mayorista: <strong>$ {{datosP.pClienteMayorista}}</strong></p>
+  <p>Precio vendedor distribuidor: <strong>$ {{datosP.pVendedorDistribuidor}}</strong></p>
+
+  <br>
+
+  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="pricetag"></ion-icon> Cuentas</h3>
+
+  <p>Subtotal: <strong>$ {{datosP.pVendedorDistribuidor * datosP.pClientePublico}}</strong></p>
+
+
+  <ion-grid style="text-align: -webkit-center;">
+    <ion-row> 
+      <ion-col> 
+        <ion-card>
+          <ion-item>
+            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valuno">pzs:</ion-label>
+            <ion-input type="number" [(ngModel)]="valuno" placeholder="Numero de piezas" 
+             required></ion-input>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>     
+        <ion-card>
+          <ion-item>
+            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valdos">pzs:</ion-label>
+            <ion-input type="number" [(ngModel)]="valdos" placeholder="Numero de piezas" 
+             required></ion-input>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+
+El resultado es multiplicacion= {{resultado}} <br>
+El resultado es divicion= {{resultado2}}<br>
+El resultado es resta= {{resultado3}} <br>
+<h5 id="operation">Suma: </h5> <p> ( {{ valuno }} + {{ valdos }} ) = <strong>{{sumauno + sumados}}</strong></p>
+
+  <button ion-button round block color="agro1" (click)="operacion()">
+    pincha aqui <ion-icon name="cloud-upload"></ion-icon>
+  </button>
+
+
+  <ion-grid style="text-align: -webkit-center;">
+    <ion-row> 
+      <ion-col> 
+        <ion-card>
+          <ion-item>
+            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valor">pzs:</ion-label>
+            <ion-input type="number" [(ngModel)]="valor"
+             required></ion-input>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>     
+            <p>Precio publico: <strong>$ {{datosP.pClientePublico}}</strong></p>
+            <p>Precio mayorista: <strong>$ {{datosP.pClienteMayorista}}</strong></p>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+  El resultado por precio publico: $ {{result}} <br>
+  El resultado por mayorista: $ {{result2}} <br>
+
+<p>suma por los dos: $ {{result + result2}}</p>
+  
+
+
+
+  <button ion-button round block color="agro1" (click)="operacion2()">
+    calcular <ion-icon name="cloud-upload"></ion-icon>
+  </button>
 
 </ion-content>

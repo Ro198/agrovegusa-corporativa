@@ -3831,18 +3831,50 @@ var PedidospromotorPage = (function () {
     function PedidospromotorPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.valuno = 0;
+        this.valdos = 0;
+        this.sumauno = 0;
+        this.sumados = 0;
+        this.resultado = 0;
+        this.resultado2 = 0;
+        this.resultado3 = 0;
+        this.result = 0;
+        this.result2 = 0;
+        this.valor = 0;
+        this.valorPublico = 0;
+        this.valorMayorista = 0;
+        this.BDProducto = window.localStorage.getItem('datosProducto');
+        this.datosP = JSON.parse(this.BDProducto);
+        console.log(this.datosP);
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+        this.valorPublico = this.datosP.pClientePublico;
+        this.valorMayorista = this.datosP.pClienteMayorista;
     }
+    PedidospromotorPage.prototype.operacion = function () {
+        this.resultado = this.valuno * this.valdos;
+        this.resultado2 = this.valuno / this.valdos;
+        this.resultado3 = this.valuno - this.valdos;
+        this.sumauno = this.valuno * 1;
+        this.sumados = this.valdos * 1;
+        console.log(this.resultado);
+    };
+    PedidospromotorPage.prototype.operacion2 = function () {
+        this.result = this.valor * this.valorPublico;
+        this.result2 = this.valor * this.valorMayorista;
+    };
     PedidospromotorPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad PedidospromotorPage');
     };
     PedidospromotorPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-pedidospromotor',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/`<!--\n  Generated template for the PedidospromotorPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>pedidospromotor</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/,
+            selector: 'page-pedidospromotor',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Detalles del pedido</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n\n\n  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="person"></ion-icon> Datos del usuario</h3>\n\n  <br>\n\n<p>Username: <strong>{{perfil.Username}}</strong></p>\n<p>Nombre de ususario: <strong>{{perfil.nombreUsuario}}</strong></p>\n<p>Numero de promotor: <strong>{{perfil.numeroPromotor}}</strong></p>\n<p>Correo: <strong>{{perfil.Correo}}</strong></p>\n\n  <br>\n\n  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="pricetag"></ion-icon> Datos del producto</h3>\n\n  <p>Nombre del producto: <strong>{{datosP.producto}}</strong></p>\n  <p>Codigo KPI: <strong>{{datosP.codigoKPI}}</strong></p>\n  <p>Existencias: <strong>{{datosP.existencias}}</strong></p>\n  <p>Marca: <strong>{{datosP.marca}}</strong></p>\n  <p>Precio publico: <strong>$ {{datosP.pClientePublico}}</strong></p>\n  <p>Precio Mayorista: <strong>$ {{datosP.pClienteMayorista}}</strong></p>\n  <p>Precio vendedor distribuidor: <strong>$ {{datosP.pVendedorDistribuidor}}</strong></p>\n\n  <br>\n\n  <h3 style="margin: 0px 0px 0px; font-size: 16px; color: #505A53;"> <ion-icon name="pricetag"></ion-icon> Cuentas</h3>\n\n  <p>Subtotal: <strong>$ {{datosP.pVendedorDistribuidor * datosP.pClientePublico}}</strong></p>\n\n\n  <ion-grid style="text-align: -webkit-center;">\n    <ion-row> \n      <ion-col> \n        <ion-card>\n          <ion-item>\n            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valuno">pzs:</ion-label>\n            <ion-input type="number" [(ngModel)]="valuno" placeholder="Numero de piezas" \n             required></ion-input>\n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n        <ion-card>\n          <ion-item>\n            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valdos">pzs:</ion-label>\n            <ion-input type="number" [(ngModel)]="valdos" placeholder="Numero de piezas" \n             required></ion-input>\n          </ion-item>\n        </ion-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\nEl resultado es multiplicacion= {{resultado}} <br>\nEl resultado es divicion= {{resultado2}}<br>\nEl resultado es resta= {{resultado3}} <br>\n<h5 id="operation">Suma: </h5> <p> ( {{ valuno }} + {{ valdos }} ) = <strong>{{sumauno + sumados}}</strong></p>\n\n  <button ion-button round block color="agro1" (click)="operacion()">\n    pincha aqui <ion-icon name="cloud-upload"></ion-icon>\n  </button>\n\n\n  <ion-grid style="text-align: -webkit-center;">\n    <ion-row> \n      <ion-col> \n        <ion-card>\n          <ion-item>\n            <ion-label stacked style="font-size: 16px; color: #4A6D68;" for="valor">pzs:</ion-label>\n            <ion-input type="number" [(ngModel)]="valor"\n             required></ion-input>\n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n            <p>Precio publico: <strong>$ {{datosP.pClientePublico}}</strong></p>\n            <p>Precio mayorista: <strong>$ {{datosP.pClienteMayorista}}</strong></p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  El resultado por precio publico: $ {{result}} <br>\n  El resultado por mayorista: $ {{result2}} <br>\n\n<p>suma por los dos: $ {{result + result2}}</p>\n  \n\n\n\n  <button ion-button round block color="agro1" (click)="operacion2()">\n    calcular <ion-icon name="cloud-upload"></ion-icon>\n  </button>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\pedidospromotor\pedidospromotor.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object])
     ], PedidospromotorPage);
     return PedidospromotorPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=pedidospromotor.js.map
