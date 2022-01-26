@@ -2,259 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff70435-f3cc-4620-92da-25a2901f1dc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.sourcemaps/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../.sourcemaps/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/AuthenticationToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/BuildHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CallbackContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CallbackMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ConfigXmlParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaBridge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaClientCertRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaHttpAuthHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaInterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaPreferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaResourceApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine$Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine$EngineView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/CoreAndroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ExposedJsApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ICordovaClientCertRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ICordovaCookieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ICordovaHttpAuthHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/LOG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$EvalBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$EvalBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/PermissionHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/PluginEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/PluginManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/PluginResult$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/PluginResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/ResumeCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/Whitelist$URLPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/Whitelist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemCookieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemExposedJsApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/AuthenticationToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/BuildHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CallbackContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CallbackMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ConfigXmlParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaBridge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaClientCertRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaDialogsHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaHttpAuthHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaInterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaPreferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaResourceApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine$Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine$EngineView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CordovaWebViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/CoreAndroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ExposedJsApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ICordovaClientCertRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ICordovaCookieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ICordovaHttpAuthHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/LOG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$EvalBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$EvalBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/NativeToJsMessageQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/PermissionHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/PluginEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/PluginManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/PluginResult$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/PluginResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/ResumeCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/Whitelist$URLPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/Whitelist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemCookieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemExposedJsApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebChromeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/org/apache/cordova/engine/SystemWebViewEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/merged_manifests/release/processReleaseManifest/merged/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/symbols/release/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/android.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/vendor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/vendor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/cordova_plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform_www/cordova_plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/release/android-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/release/android-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/xml/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/fetch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuadministrador/menuadministrador.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuadministrador/menuadministrador.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuadministradores/menuadministradores.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuadministradores/menuadministradores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menucliente/menucliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menucliente/menucliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/menuadministrador/menuadministrador.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuadministrador/menuadministrador.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidor/menudistribuidor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidor/menudistribuidor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/pedidospromotor/pedidospromotor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/pedidospromotor/pedidospromotor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/pedidospromotor/pedidospromotor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/pedidospromotor/pedidospromotor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productos/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productos/productos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productos/productos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productos/productos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/usuarioseditar/usuarioseditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/usuarioseditar/usuarioseditar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/vendor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/vendor.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -387,9 +153,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="247" key="FileChooserDialogImpl/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639185427093" />
-    <state x="519" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1642213146824">
+    <state x="519" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1643234359847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="519" y="264" key="com.intellij.ide.util.TipDialog/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1642213146824" />
+    <state x="519" y="264" key="com.intellij.ide.util.TipDialog/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1643234359847" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643235265044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1643235265044" />
   </component>
 </project>
