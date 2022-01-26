@@ -51,14 +51,11 @@ export class ProductosoflinePage {
       window.localStorage.setItem('datosProducto', JSON.stringify(item));
       this.navCtrl.push(MenuclientemostrarPage);
 
+    }else if (this.perfil.tipoCuenta == 4){             
+      window.localStorage.setItem('datosProducto', JSON.stringify(item));
+      this.navCtrl.push(MenudistribuidormostrarPage);
+
     }
-
-
-
-
-
-
-    
  
   }
 

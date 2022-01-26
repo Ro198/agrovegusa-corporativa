@@ -1,6 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, Platform } from 'ionic-angular';
 
+import pdfMake from "pdfmake/build/pdfmake";
+import pdfFonts from "pdfmake/build/vfs_fonts";
+pdfMake.vfs = pdfFonts.pdfMake.vfs;
+
+import { File } from '@ionic-native/file';
+import { FileOpener } from '@ionic-native/file-opener';
 
 @Component({
   selector: 'page-pedidospromotor',
@@ -8,7 +14,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class PedidospromotorPage {
 
-
+pdfObject = null;
 
 valuno=0;
 valdos=0;
@@ -31,7 +37,10 @@ valorMayorista=0;
   perfil;
 
   constructor(public navCtrl: NavController, 
-              public navParams: NavParams) 
+              public navParams: NavParams,
+              public file: File,
+              public fileOpener: FileOpener,
+              public platform: Platform) 
   {
 
     this.BDProducto  = window.localStorage.getItem('datosProducto')
@@ -62,10 +71,51 @@ valorMayorista=0;
   this.result = this.valor * this.valorPublico;
   this.result2 = this.valor * this.valorMayorista;
 
-
-
-
   }
+
+  generatePDF() {
+
+    var docDefinition = {
+      content: [
+        'Hello World',
+      ]
+    };
+
+    this.pdfObject = pdfMake.createPdf(docDefinition);
+
+    alert('PDF Generado');
+    
+  }
+
+  openPDF() {
+
+    if(this.platform.is('cordova' )) {
+      
+      this.pdfObject.getBuffer((buffer) => {
+        var utf8 = new Uint8Array(buffer);
+        var binaryArray = utf8.buffer;
+        var blob = new Blob([binaryArray], { type: 'application/pdf'});
+
+        this.file.writeFile(this.file.dataDirectory, 'file.pdf', blob, { replace: true }).then(fileEntry => {
+          this.fileOpener.open(this.file.dataDirectory + 'file.pdf', 'application/pdf');
+        })
+      });
+    }else{
+      this.pdfObject.download();
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PedidospromotorPage');

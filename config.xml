@@ -3,7 +3,7 @@
     <name>Agrovegusa</name>
     <description>Aplicacion movil para usos veterinarios.</description>
     <author email="agrovegusadeveloper@gmail.com" href="https://agrovegusa.com/">Zulasoft</author>
-    <content original-src="index.html" src="http://192.168.0.13:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -96,4 +96,6 @@
     </plugin>
     <plugin name="cordova-plugin-statusbar" spec="^2.4.3" />
     <plugin name="cordova-plugin-email-composer" spec="^0.8.15" />
+    <plugin name="cordova-plugin-file" spec="^6.0.2" />
+    <plugin name="cordova-plugin-file-opener2" spec="^2.0.0" />
 </widget>

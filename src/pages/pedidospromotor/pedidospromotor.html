@@ -95,11 +95,16 @@ El resultado es resta= {{resultado3}} <br>
 
 <p>suma por los dos: $ {{result + result2}}</p>
   
-
-
-
   <button ion-button round block color="agro1" (click)="operacion2()">
     calcular <ion-icon name="cloud-upload"></ion-icon>
+  </button>
+
+
+  <button ion-button round block color="agro1" (click)="generatePDF()">
+    Generar PDF <ion-icon name="cloud-upload"></ion-icon>
+  </button>
+  <button *ngIf="pdfObject" ion-button round block color="agro1" (click)="openPDF()">
+    Abrir PDF 
   </button>
 
 </ion-content>

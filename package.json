@@ -23,6 +23,8 @@
     "@ionic-native/camera": "^4.0.1",
     "@ionic-native/core": "4.20.0",
     "@ionic-native/email-composer": "^4.20.0",
+    "@ionic-native/file": "^4.20.0",
+    "@ionic-native/file-opener": "^4.20.0",
     "@ionic-native/http": "^4.20.0",
     "@ionic-native/push": "^4.5.3",
     "@ionic-native/splash-screen": "4.3.2",
@@ -34,6 +36,7 @@
     "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-email-composer": "^0.8.15",
     "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-file-opener2": "^2.0.0",
     "cordova-plugin-ionic-webview": "^1.2.1",
     "cordova-plugin-splashscreen": "^4.1.0",
     "cordova-plugin-statusbar": "^2.4.3",
@@ -67,7 +70,9 @@
         "FCM_VERSION": "11.6.2"
       },
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-email-composer": {}
+      "cordova-plugin-email-composer": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-file-opener2": {}
     },
     "platforms": [
       "android"

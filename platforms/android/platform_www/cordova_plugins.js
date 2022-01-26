@@ -327,6 +327,14 @@ module.exports = [
       "cordova.plugins.email",
       "plugin.email"
     ]
+  },
+  {
+    "id": "cordova-plugin-file-opener2.FileOpener2",
+    "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+    "pluginId": "cordova-plugin-file-opener2",
+    "clobbers": [
+      "cordova.plugins.fileOpener2"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -342,7 +350,8 @@ module.exports.metadata =
   "cordova-plugin-camera": "4.0.3",
   "phonegap-plugin-push": "2.1.3",
   "cordova-plugin-statusbar": "2.4.3",
-  "cordova-plugin-email-composer": "0.8.15"
+  "cordova-plugin-email-composer": "0.8.15",
+  "cordova-plugin-file-opener2": "2.0.0"
 };
 // BOTTOM OF METADATA
 });

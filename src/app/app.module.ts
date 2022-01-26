@@ -8,7 +8,9 @@ import { HttpModule } from '@angular/http';
 import { Camera } from '@ionic-native/camera';
 import { Push } from '@ionic-native/push';
 import { EmailComposer } from '@ionic-native/email-composer';
-import { MyApp } from './app.component';
+import { MyApp } from './app.component'; 
+import { FileOpener } from '@ionic-native/file-opener';
+import { File } from '@ionic-native/file';
 
 import { LoginService } from '../pages/servicios/LoginServices';
 import { ProductoService } from '../pages/servicios/ProductosServices';
@@ -126,6 +128,8 @@ import {LoginPage,
     Push,
     Camera,
     EmailComposer,
+    FileOpener,
+    File,
     {provide: ErrorHandler, useClass: IonicErrorHandler}, LoginService, ProductoService, UsuarioService, PromocionesFotoService
   ]
 })

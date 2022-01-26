@@ -38,11 +38,13 @@
     },
     "cordova-plugin-email-composer": {
       "PACKAGE_NAME": "com.agrovegusa.zulasoft"
-    }
-  },
-  "dependent_plugins": {
+    },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.agrovegusa.zulasoft"
     }
-  }
+  },
+  "dependent_plugins": {}
 }

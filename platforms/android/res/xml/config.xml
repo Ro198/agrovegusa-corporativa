@@ -36,10 +36,13 @@
     <feature name="EmailComposer">
         <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
     </feature>
+    <feature name="FileOpener2">
+        <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
+    </feature>
     <name>Agrovegusa</name>
     <description>Aplicacion movil para usos veterinarios.</description>
     <author email="agrovegusadeveloper@gmail.com" href="https://agrovegusa.com/">Zulasoft</author>
-    <content original-src="index.html" src="http://192.168.0.13:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
