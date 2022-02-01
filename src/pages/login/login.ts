@@ -60,6 +60,7 @@ loginUser(form) {
   console.log(this.login.password);
   if (form.valid) {
     this.loading = this.loadingCtrl.create({
+      spinner: "bubbles",
       content: "Ingresando a Agrovegusa, espere..."
     });
     this.loading.present();

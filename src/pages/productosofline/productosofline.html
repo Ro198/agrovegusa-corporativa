@@ -3,6 +3,22 @@
   <ion-navbar color="sincolor" style="text-align: center;">
     <ion-title color="agro2" style="text-align: -webkit-center;">Productos ofline</ion-title>
 
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        
+        <ion-col>
+          <img style="width: 25%;" (click)="regresar_menu()" src="img/icon/volver.png"/>
+          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Regresar al menu</p>
+        </ion-col>
+        
+        <ion-col>     
+          <img style="width: 25%;" (click)="cargar_lista_ofline()" src="img/icon/refrescar.png"/>
+          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Cargar lista</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+
   </ion-navbar>
 
   <ion-item no-lines>
@@ -16,7 +32,6 @@
 
 
 <ion-content padding>
-
   
   <ion-list *ngFor="let item of datosP; let i=index;">
     <ion-card class="lista" (click)="detalles($event,item)">

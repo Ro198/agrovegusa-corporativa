@@ -75,6 +75,7 @@ guardar(form){
            console.log(this.datosProducto.existencias);
 
           let loading =this.loadingCtrl.create({
+            spinner: "bubbles",
           content: "Guardando producto, espere...",
            });
           loading.present();

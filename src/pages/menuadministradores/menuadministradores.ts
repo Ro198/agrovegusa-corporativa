@@ -4,7 +4,7 @@ import { NavController, NavParams, AlertController, LoadingController } from 'io
 import { 
   LoginPage,
   MenudistribuidorproductoPage,
-  AdministradorespromocionPage,
+  PromocionesadminPage,
   ProductosoflinePage
 } from "../index.paginas";
 
@@ -32,7 +32,8 @@ export class MenuadministradoresPage {
   }
 
   promociones(){
-    this.navCtrl.push(AdministradorespromocionPage);
+    //this.navCtrl.push(AdministradorespromocionPage);
+    this.navCtrl.push(PromocionesadminPage);
   }
 
   productos(){

@@ -53,6 +53,7 @@ export class UsuariosmostrarPage {
               console.log(this.datosU.idUsuario);
   
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Eliminando usuario, espere...",
               });
               loading.present();

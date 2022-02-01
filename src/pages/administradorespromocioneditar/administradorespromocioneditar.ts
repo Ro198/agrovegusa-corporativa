@@ -77,6 +77,7 @@ export class AdministradorespromocioneditarPage {
  
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Cambiando la imagen, espere...",
               });
               loading.present();

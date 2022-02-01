@@ -57,6 +57,7 @@ eliminar(form){
             console.log(this.datosP.idProducto);
 
           let loading =this.loadingCtrl.create({
+            spinner: "bubbles",
           content: "Eliminando producto, espere...",
             });
             loading.present();

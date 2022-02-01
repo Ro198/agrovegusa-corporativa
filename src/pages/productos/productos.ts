@@ -48,7 +48,9 @@ export class ProductosPage {
 
   listar_productos()
   {
+    
          this.loading =this.loadingCtrl.create({
+           spinner: "bubbles",
            content: "Cargando todos los productos, espere...",
             });
              this.loading.present();

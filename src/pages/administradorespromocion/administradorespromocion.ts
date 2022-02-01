@@ -38,6 +38,7 @@ export class AdministradorespromocionPage {
   listar_promociones() 
   {
          this.loading =this.loadingCtrl.create({
+          spinner: "bubbles",
            content: "Cargando promociones...",
             });
              this.loading.present();

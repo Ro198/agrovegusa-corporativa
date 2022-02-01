@@ -218,6 +218,7 @@ export class PromocionesadmineditarPage {
 
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Eliminando imagen, espere...",
               });
               loading.present();

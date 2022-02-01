@@ -40,6 +40,7 @@ export class UsuarioslistaPage {
 listar_usuarios()
 {
        this.loading =this.loadingCtrl.create({
+        spinner: "bubbles",
          content: "Cargando usuarios, espere...",
           });
            this.loading.present();

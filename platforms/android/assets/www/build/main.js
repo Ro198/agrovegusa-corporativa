@@ -552,6 +552,7 @@ var LoginPage = (function () {
         console.log(this.login.password);
         if (form.valid) {
             this.loading = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Ingresando a Agrovegusa, espere..."
             });
             this.loading.present();
@@ -790,6 +791,7 @@ var ProductosPage = (function () {
     ProductosPage.prototype.listar_productos = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando todos los productos, espere...",
         });
         this.loading.present();
@@ -857,7 +859,7 @@ var ProductosPage = (function () {
     };
     ProductosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-productos',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productos\productos.html"*/`\n<ion-header translucent="true" no-border no-lines>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n      <!--\n<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n      \n        <ion-col>\n          <img style="width: 25%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n        <ion-col>     \n          <img style="width: 12%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  -->\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n  <ion-fab right top>\n    <button ion-fab ><ion-icon name="pricetag"></ion-icon></button>\n    <ion-fab-list side="bottom">\n      <img ion-fab style="border-radius: 50%;" src="img/icon/agregarP.png" (click)="enlace_agregar_producto()" />\n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <p style="color: #0C369C;">Nuevo producto</p>\n    </ion-fab-list>\n  </ion-fab>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #0C369C; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productos\productos.html"*/,
+            selector: 'page-productos',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productos\productos.html"*/`\n<ion-header translucent="true" no-border no-lines>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n      <!--\n<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n      \n        <ion-col>\n          <img style="width: 25%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n        <ion-col>     \n          <img style="width: 12%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  -->\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n  <ion-fab right top>\n    <button ion-fab ><ion-icon name="pricetag"></ion-icon></button>\n    <ion-fab-list side="bottom">\n      <img ion-fab style="border-radius: 50%;" src="img/icon/agregarP.png" (click)="enlace_agregar_producto()" />\n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <p style="color: #0C369C;">Nuevo producto</p>\n    </ion-fab-list>\n  </ion-fab>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productos\productos.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -921,6 +923,7 @@ var ProductosdetallesPage = (function () {
         if (form.valid) {
             console.log(this.datosP.idProducto);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Eliminando producto, espere...",
             });
             loading_1.present();
@@ -1040,6 +1043,7 @@ var ProductosagregarPage = (function () {
             console.log(this.datosProducto.porcenivaCliente);
             console.log(this.datosProducto.existencias);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Guardando producto, espere...",
             });
             loading_1.present();
@@ -1187,6 +1191,7 @@ var ProductoseditarPage = (function () {
             console.log(this.editarProducto.porcenivaCliente);
             console.log(this.editarProducto.existencias);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Modificando producto, espere...",
             });
             loading_1.present();
@@ -1593,6 +1598,7 @@ var ProductosagotadosPage = (function () {
     ProductosagotadosPage.prototype.lista_productos_agotados = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando productos agotados, espere...",
         });
         this.loading.present();
@@ -1700,6 +1706,7 @@ var UsuarioslistaPage = (function () {
     UsuarioslistaPage.prototype.listar_usuarios = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando usuarios, espere...",
         });
         this.loading.present();
@@ -1813,6 +1820,7 @@ var UsuariosmostrarPage = (function () {
         if (form.valid) {
             console.log(this.datosU.idUsuario);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Eliminando usuario, espere...",
             });
             loading_1.present();
@@ -1930,6 +1938,7 @@ var UsuariosagregarPage = (function () {
             console.log(this.datosBDUsuario.numeroPromotor);
             console.log(this.datosBDUsuario.tipoCuenta);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Guardando usuario espere...",
             });
             loading_1.present();
@@ -2060,6 +2069,7 @@ var UsuarioseditarPage = (function () {
             console.log(this.editarBDUsuario.numeroPromotor);
             console.log(this.editarBDUsuario.tipoCuenta);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Guardando cambios,, espere...",
             });
             loading_1.present();
@@ -2172,6 +2182,7 @@ var MenudistribuidorproductoPage = (function () {
     MenudistribuidorproductoPage.prototype.listar_productos = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando todos los productos, espere...",
         });
         this.loading.present();
@@ -2236,7 +2247,7 @@ var MenudistribuidorproductoPage = (function () {
     };
     MenudistribuidorproductoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menudistribuidorproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n    <!--<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n      </ion-row>\n    </ion-grid> \n  -->\n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left> \n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #0C369C; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo"> \n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/,
+            selector: 'page-menudistribuidorproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n    <!--<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n       \n      </ion-row>\n    </ion-grid> \n  -->\n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left> \n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo"> \n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menudistribuidorproducto\menudistribuidorproducto.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2297,6 +2308,7 @@ var MenudistribuidoragotadosPage = (function () {
     MenudistribuidoragotadosPage.prototype.lista_productos_agotados = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando productos agotados, espere...",
         });
         this.loading.present();
@@ -2460,6 +2472,7 @@ var MenuclienteproductoPage = (function () {
     MenuclienteproductoPage.prototype.listar_productos = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando todos los productos, espere...",
         });
         this.loading.present();
@@ -2524,7 +2537,7 @@ var MenuclienteproductoPage = (function () {
     };
     MenuclienteproductoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menuclienteproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menuclienteproducto\menuclienteproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n       <!--\n<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n     \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n -->\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n \n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #0C369C; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menuclienteproducto\menuclienteproducto.html"*/,
+            selector: 'page-menuclienteproducto',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menuclienteproducto\menuclienteproducto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos</ion-title>\n       <!--\n<br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n     \n        <ion-col>     \n          <img style="width: 25%;" (click)="enlace_agregar_producto()" src="img/icon/agregarP.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Nuevo producto</p>\n        </ion-col>\n        \n        <ion-col>\n          <img style="width: 12%;" (click)="enlace_producto_agotado()" src="img/icon/agotado.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Productos agotados</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n -->\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="producto($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando productos...">\n    </ion-refresher-content>\n  </ion-refresher>\n \n\n  <ion-list *ngFor="let item of productos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #3bb5a5;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\menuclienteproducto\menuclienteproducto.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2585,6 +2598,7 @@ var MenuclienteagotadosPage = (function () {
     MenuclienteagotadosPage.prototype.lista_productos_agotados = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando productos agotados, espere...",
         });
         this.loading.present();
@@ -2744,6 +2758,7 @@ var PromocionesPage = (function () {
     PromocionesPage.prototype.listar_promociones = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando promociones...",
         });
         this.loading.present();
@@ -2781,7 +2796,7 @@ var PromocionesPage = (function () {
     };
     PromocionesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-promociones',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\promociones\promociones.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Promociones</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content>  \n  </ion-refresher>\n\n<ion-list *ngFor="let item of promociones; let i=index;">\n  <ion-item>\n    <ion-avatar>\n     <div style="text-align:center;" >\n      <img src="{{item.foto}}" id="Foto">\n     </div>\n    </ion-avatar>\n  </ion-item>\n</ion-list>\n\n</ion-content>\n      `/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\promociones\promociones.html"*/,
+            selector: 'page-promociones',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\promociones\promociones.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Promociones</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Cargando imagenes...">\n    </ion-refresher-content>  \n  </ion-refresher>\n\n<ion-list *ngFor="let item of promociones; let i=index;">\n  <ion-item>\n    <ion-avatar>\n     <div style="text-align:center;" >\n      <img src="{{item.foto}}" id="Foto">\n     </div>\n    </ion-avatar>\n  </ion-item>\n</ion-list>\n\n</ion-content>\n      `/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\promociones\promociones.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2843,6 +2858,7 @@ var PromocionesadminPage = (function () {
     PromocionesadminPage.prototype.listar_promociones = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando promociones...",
         });
         this.loading.present();
@@ -2913,9 +2929,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var ProductosoflinePage = (function () {
-    function ProductosoflinePage(navCtrl, navParams) {
+    function ProductosoflinePage(navCtrl, navParams, alertCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
         var productos = JSON.parse(localStorage.getItem("productos"));
         this.datosP = productos;
         console.log(this.datosP);
@@ -2923,6 +2940,7 @@ var ProductosoflinePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    ProductosoflinePage_1 = ProductosoflinePage;
     ProductosoflinePage.prototype.detalles = function (event, item) {
         if (this.perfil.tipoCuenta == 1) {
             window.localStorage.setItem('datosProducto', JSON.stringify(item));
@@ -2960,17 +2978,64 @@ var ProductosoflinePage = (function () {
             });
         }
     };
+    ProductosoflinePage.prototype.cargar_lista_ofline = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: "¡ATENCION!",
+            message: "¿Quieres volver a cargar la lista?",
+            buttons: [
+                {
+                    text: "NO, POR EL MOMENTO",
+                    role: "cancel",
+                    handler: function () { }
+                },
+                {
+                    text: "SI, POR FAVOR",
+                    handler: function () {
+                        _this.navCtrl.setRoot(ProductosoflinePage_1);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    ProductosoflinePage.prototype.regresar_menu = function () {
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        if (this.perfil.tipoCuenta == 1) {
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["e" /* MenuadministradorPage */]);
+        }
+        else if (this.perfil.tipoCuenta == 2) {
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["k" /* MenudistribuidorPage */]);
+        }
+        else if (this.perfil.tipoCuenta == 3) {
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["g" /* MenuclientePage */]);
+        }
+        else if (this.perfil.tipoCuenta == 4) {
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["f" /* MenuadministradoresPage */]);
+        }
+        else {
+            var alert_1 = this.alertCtrl.create({
+                title: '¡ERROR!',
+                subTitle: 'Algo salio mal...',
+                buttons: ['OK']
+            });
+            alert_1.present();
+        }
+    };
     ProductosoflinePage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ProductosoflinePage');
     };
-    ProductosoflinePage = __decorate([
+    ProductosoflinePage = ProductosoflinePage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-productosofline',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productosofline\productosofline.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos ofline</ion-title>\n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="productoo($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  \n  <ion-list *ngFor="let item of datosP; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #54BED8;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productosofline\productosofline.html"*/,
+            selector: 'page-productosofline',template:/*ion-inline-start:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productosofline\productosofline.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-navbar color="sincolor" style="text-align: center;">\n    <ion-title color="agro2" style="text-align: -webkit-center;">Productos ofline</ion-title>\n\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        \n        <ion-col>\n          <img style="width: 25%;" (click)="regresar_menu()" src="img/icon/volver.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Regresar al menu</p>\n        </ion-col>\n        \n        <ion-col>     \n          <img style="width: 25%;" (click)="cargar_lista_ofline()" src="img/icon/refrescar.png"/>\n          <p style="font-size: 14px; color: #0C369C; margin-top: 0%;">Cargar lista</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-navbar>\n\n  <ion-item no-lines>\n    <ion-searchbar padding cancelButtonText (ionInput)="marca($event)" placeholder="Buscar por marca">\n    </ion-searchbar>\n    <ion-searchbar style="margin-top: -15px;" padding cancelButtonText (ionInput)="productoo($event)" placeholder="Buscar por producto">\n    </ion-searchbar>\n  </ion-item>\n\n</ion-header>\n\n\n<ion-content padding>\n  \n  <ion-list *ngFor="let item of datosP; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/product.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> \n        <h3 style="color: #505A53;">Codigo KPI: <strong style="color: #54BED8;">{{item.codigoKPI}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col>\n            <ion-chip *ngIf="item.existencias === \'0\' " color="rojo">\n              <ion-label style="margin: 0 10px;">Agotado</ion-label>\n            </ion-chip>\n            <ion-chip *ngIf="item.existencias >= \'1\'" color="btnlogin">\n              <ion-label style="margin: 0 10px;">En existencia</ion-label>\n            </ion-chip>\n          </ion-col> \n          <ion-col>     \n            <h3 style="color: #505A53;">Marca: <br> <strong style="color: #88BD54;">{{item.marca}}</strong></h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-card>\n  </ion-list>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Desktop\Agrovegusa\agrovegusa\src\pages\productosofline\productosofline.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], ProductosoflinePage);
     return ProductosoflinePage;
+    var ProductosoflinePage_1;
 }());
 
 //# sourceMappingURL=productosofline.js.map
@@ -3069,6 +3134,7 @@ var PromocionesagregaradminPage = (function () {
         if (form.valid) {
             console.log(this.fotoPromocion.foto);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Guardando imagen...",
             });
             loading_1.present();
@@ -3372,6 +3438,7 @@ var PromocionesadmineditarPage = (function () {
         if (form.valid) {
             console.log(this.imagenP.idPromocion);
             var loading_2 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Eliminando imagen, espere...",
             });
             loading_2.present();
@@ -3470,7 +3537,8 @@ var MenuadministradoresPage = (function () {
         console.log(this.perfil);
     }
     MenuadministradoresPage.prototype.promociones = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["b" /* AdministradorespromocionPage */]);
+        //this.navCtrl.push(AdministradorespromocionPage);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["x" /* PromocionesadminPage */]);
     };
     MenuadministradoresPage.prototype.productos = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["n" /* MenudistribuidorproductoPage */]);
@@ -3575,6 +3643,7 @@ var AdministradorespromocionPage = (function () {
     AdministradorespromocionPage.prototype.listar_promociones = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
+            spinner: "bubbles",
             content: "Cargando promociones...",
         });
         this.loading.present();
@@ -3686,6 +3755,7 @@ var AdministradorespromocioneditarPage = (function () {
             console.log(this.imagenP.idPromocion);
             console.log(this.imagenProFoto.foto);
             var loading_1 = this.loadingCtrl.create({
+                spinner: "bubbles",
                 content: "Cambiando la imagen, espere...",
             });
             loading_1.present();

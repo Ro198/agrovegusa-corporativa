@@ -111,6 +111,7 @@ this.editarProducto.existencias = this.datosP.existencias;
               console.log(this.editarProducto.existencias);
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Modificando producto, espere...",
               });
               loading.present();

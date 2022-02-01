@@ -57,6 +57,7 @@ export class PromocionesagregaradminPage {
 
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Guardando imagen...",});
               loading.present();
 

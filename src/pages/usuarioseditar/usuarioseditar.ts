@@ -83,6 +83,7 @@ export class UsuarioseditarPage {
 
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Guardando cambios,, espere...",
               });
               loading.present();

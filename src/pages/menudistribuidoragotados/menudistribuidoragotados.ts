@@ -48,6 +48,7 @@ export class MenudistribuidoragotadosPage {
   lista_productos_agotados()
   {
          this.loading =this.loadingCtrl.create({
+          spinner: "bubbles",
            content: "Cargando productos agotados, espere...",
             });
              this.loading.present();

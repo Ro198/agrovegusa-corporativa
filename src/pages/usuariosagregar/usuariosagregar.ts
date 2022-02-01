@@ -64,6 +64,7 @@ export class UsuariosagregarPage {
              console.log(this.datosBDUsuario.tipoCuenta);
 
             let loading =this.loadingCtrl.create({
+              spinner: "bubbles",
             content: "Guardando usuario espere...",
              });
             loading.present();
