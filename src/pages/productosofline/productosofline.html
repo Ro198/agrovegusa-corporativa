@@ -45,8 +45,8 @@
       <ion-grid style="text-align: center;">
         <ion-row> 
           <ion-col>
-            <ion-chip *ngIf="item.existencias === '0' " color="rojo">
-              <ion-label style="margin: 0 10px;">Agotado</ion-label>
+            <ion-chip *ngIf="item.existencias === '0' " color="transito">
+              <ion-label style="margin: 0 10px;">En transito...</ion-label>
             </ion-chip>
             <ion-chip *ngIf="item.existencias >= '1'" color="btnlogin">
               <ion-label style="margin: 0 10px;">En existencia</ion-label>

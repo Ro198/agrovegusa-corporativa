@@ -54,7 +54,7 @@
   <ion-list *ngFor="let item of productos; let i=index;">
     <ion-card class="lista" (click)="detalles($event,item)">
       <ion-item>
-        <ion-avatar item-left>
+        <ion-avatar item-left> 
           <img src="img/icon/product.png"/>      
         </ion-avatar>
         <h2 style="color: #4A6D68; font-size: 13px; margin-top: 5px;"><strong>{{item.producto}}</strong></h2> 
@@ -63,8 +63,8 @@
       <ion-grid style="text-align: center;">
         <ion-row> 
           <ion-col>
-            <ion-chip *ngIf="item.existencias === '0' " color="rojo">
-              <ion-label style="margin: 0 10px;">Agotado</ion-label>
+            <ion-chip *ngIf="item.existencias === '0' " color="transito">
+              <ion-label style="margin: 0 10px;">En transito...</ion-label>
             </ion-chip>
             <ion-chip *ngIf="item.existencias >= '1'" color="btnlogin">
               <ion-label style="margin: 0 10px;">En existencia</ion-label>

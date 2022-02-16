@@ -3,48 +3,45 @@
   <component name="ChangeListManager">
     <list default="true" id="4ff70435-f3cc-4620-92da-25a2901f1dc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.sourcemaps/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../.sourcemaps/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/www/build/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/build/vendor.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/release/android-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/release/android-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/administradorespromocion/administradorespromocion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/administradorespromocion/administradorespromocion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/administradorespromocion/administradorespromocion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/administradorespromocion/administradorespromocion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/administradorespromocioneditar/administradorespromocioneditar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/administradorespromocioneditar/administradorespromocioneditar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/login/login.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuadministradores/menuadministradores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuadministradores/menuadministradores.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclienteagotados/menuclienteagotados.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclienteagotados/menuclienteagotados.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclientemostrar/menuclientemostrar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menuclienteproducto/menuclienteproducto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidoragotados/menudistribuidoragotados.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidoragotados/menudistribuidoragotados.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidormostrar/menudistribuidormostrar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/menudistribuidorproducto/menudistribuidorproducto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/productos/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productos/productos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/productos/productos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productos/productos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productos/productos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productos/productos.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosagotados/productosagotados.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosagotados/productosagotados.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosagregar/productosagregar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosagregar/productosagregar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosdetalles/productosdetalles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productoseditar/productoseditar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productoseditar/productoseditar.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosofline/productosofline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promociones/promociones.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promociones/promociones.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promociones/promociones.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promociones/promociones.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promociones/promociones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promociones/promociones.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesadmineditar/promocionesadmineditar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesadmineditar/promocionesadmineditar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesagregaradmin/promocionesagregaradmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesagregaradmin/promocionesagregaradmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/usuariosagregar/usuariosagregar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/usuariosagregar/usuariosagregar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/usuarioseditar/usuarioseditar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/usuarioseditar/usuarioseditar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/usuarioslista/usuarioslista.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/usuarioslista/usuarioslista.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/pages/usuariosmostrar/usuariosmostrar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/usuariosmostrar/usuariosmostrar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/productosoflinemostrar/productosoflinemostrar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesadmin/promocionesadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/pages/promocionesadmineditar/promocionesadmineditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/pages/promocionesadmineditar/promocionesadmineditar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/theme/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/build/main.js.map" afterDir="false" />
@@ -180,10 +177,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="247" key="FileChooserDialogImpl/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639185427093" />
-    <state x="519" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1643656292073">
+    <state x="519" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1644961679006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="519" y="264" key="com.intellij.ide.util.TipDialog/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1643656292073" />
+    <state x="519" y="264" key="com.intellij.ide.util.TipDialog/1920.137.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1644961679006" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643235265044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

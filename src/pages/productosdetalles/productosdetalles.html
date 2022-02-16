@@ -27,12 +27,38 @@
   <ion-card-content style="text-align: -webkit-center;"> 
     <u style="color: #0C369C;"><strong style="font-weight: normal; font-size: 20px;">{{datosP.producto}}</strong></u>
   </ion-card-content> 
-
   <ion-item no-lines >
     <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="ribbon" style="color: brown;"></ion-icon> Marca del producto: <strong>{{datosP.marca}}</strong></h3>
-    <h3 style="color: #505A53; font-size: 15px;"><ion-icon name="list-box" style="color: brown;"></ion-icon> Existencias: <strong style="color: coral;">{{datosP.existencias}}</strong> <strong>pz/pzs</strong> en inventario</h3>
-    <h4 style="color: #505A53; font-size: 15px;"><ion-icon name="barcode" style="color: brown;"></ion-icon> Codigo KPI: <strong style="color: #3bb5a5;">{{datosP.codigoKPI}}</strong></h4>
-</ion-item>
+  </ion-item>
+  
+  <ion-grid style="text-align: -webkit-center;">
+    <ion-row> 
+      <ion-col> 
+        <ion-card class="tarjeta">
+          <ion-item no-lines>
+            <div style="text-align: -webkit-center;">
+              <p style="font-size: 10px; color: #505A53;">Codigo KPI</p>
+              <p style="font-size: 17px; color: brown;"><strong>{{datosP.codigoKPI}}</strong></p>
+            </div> 
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>     
+        <ion-card class="tarjeta">
+          <p style="margin: 12px 0px 0px; font-size: 10px; color: #505A53;">Existencias</p>
+              <ion-chip *ngIf="datosP.existencias === '0' " color="transito">
+                <ion-label>En transito...</ion-label>
+              </ion-chip>
+              <ion-chip class="chipcolor" *ngIf="datosP.existencias == '1'">
+                <p style="font-size: 16px;"><strong style="color: tomato;">{{datosP.existencias}}</strong> pz</p>
+              </ion-chip>
+              <ion-chip class="chipcolor" *ngIf="datosP.existencias >= '10'">
+                <p style="font-size: 16px;"><strong style="color: limegreen;">{{datosP.existencias}}</strong> pzs</p>
+              </ion-chip> 
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
 
 <br>
     <ion-grid style="text-align: -webkit-center;">
@@ -42,7 +68,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Publico</p>
-                <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClientePublico}}</strong></p>
+                <p style="font-size: 17px;">$ <strong style="color: darkturquoise;">{{datosP.pClientePublico}}</strong></p>
               </div> 
             </ion-item>
         </ion-col>
@@ -50,7 +76,7 @@
           <ion-item no-lines>
             <div style="text-align: -webkit-center;">
               <p style="font-size: 10px; color: #505A53;">Mayorista</p>
-              <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pClienteMayorista}}</strong></p>
+              <p style="font-size: 17px;">$ <strong style="color: darkturquoise;">{{datosP.pClienteMayorista}}</strong></p>
             </div> 
           </ion-item>
       </ion-col>
@@ -63,7 +89,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Condición</p>
-                <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pAdminCondicion}}</strong></p>
+                <p style="font-size: 17px;">$ <strong style="color: darkturquoise;">{{datosP.pAdminCondicion}}</strong></p>
               </div> 
             </ion-item>
         </ion-col>
@@ -71,7 +97,7 @@
           <ion-item no-lines>
             <div style="text-align: -webkit-center;">
               <p style="font-size: 10px; color: #505A53;">Deluxxe</p>
-              <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pAdminDeluxe}}</strong></p>
+              <p style="font-size: 17px;">$ <strong style="color: darkturquoise;">{{datosP.pAdminDeluxe}}</strong></p>
             </div> 
           </ion-item>
       </ion-col>
@@ -84,7 +110,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Distribuidor</p>
-                <p style="font-size: 17px; color: darkturquoise;">$ <strong>{{datosP.pVendedorDistribuidor}}</strong></p>
+                <p style="font-size: 17px;">$ <strong style="color: darkturquoise;">{{datosP.pVendedorDistribuidor}}</strong></p>
               </div> 
             </ion-item>
         </ion-col>
@@ -92,7 +118,7 @@
           <ion-item no-lines>
             <div style="text-align: -webkit-center;">
               <p style="font-size: 10px; color: #505A53;">Descuento distribuidor</p>
-              <p style="font-size: 17px; color: darkturquoise;"><strong>{{datosP.pVendedorDTODistribuidor}}</strong> %</p>
+              <p style="font-size: 17px;"><strong style="color: darkturquoise;">{{datosP.pVendedorDTODistribuidor}}</strong> %</p>
             </div> 
           </ion-item>
       </ion-col>
@@ -110,7 +136,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 1</p>
-                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV1Vendedor}}</strong></p>
+                <p style="font-size: 20px;">$ <strong style="color: darkturquoise;">{{datosP.ventaV1Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -120,7 +146,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 2</p>
-                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV2Vendedor}}</strong></p>
+                <p style="font-size: 20px;">$ <strong style="color: darkturquoise;">{{datosP.ventaV2Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -134,7 +160,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 3</p>
-                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV3Vendedor}}</strong></p>
+                <p style="font-size: 20px;">$ <strong style="color: darkturquoise;">{{datosP.ventaV3Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -144,7 +170,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">Volumen 4</p>
-                <p style="font-size: 20px; color: darkturquoise;">$ <strong>{{datosP.ventaV4Vendedor}}</strong></p>
+                <p style="font-size: 20px;">$ <strong style="color: darkturquoise;">{{datosP.ventaV4Vendedor}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -162,7 +188,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">IEPS</p>
-                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porceniepsCliente}}</strong>  %</p>
+                <p style="font-size: 20px;"><strong style="color: darkturquoise;">{{datosP.porceniepsCliente}}</strong>  %</p>
               </div> 
             </ion-item>
           </ion-card>
@@ -172,7 +198,7 @@
             <ion-item no-lines>
               <div style="text-align: -webkit-center;">
                 <p style="font-size: 10px; color: #505A53;">IVA</p>
-                <p style="font-size: 20px; color: darkturquoise;"><strong>{{datosP.porcenivaCliente}}</strong>  %</p>
+                <p style="font-size: 20px;"><strong style="color: darkturquoise;">{{datosP.porcenivaCliente}}</strong>  %</p>
               </div> 
             </ion-item>
           </ion-card>
